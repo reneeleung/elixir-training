@@ -1,0 +1,7 @@
+<section class="phx-hero">
+  <h1><%= plural_of(@produce,@count) %></h1>
+  <h1><%= plural_of("egg",2) %></h1>
+  <h1><%= plural_of("egg",1) %></h1>
+  <h1><%= plural_of("egg",-2) %></h1>
+  <h1><span style='color: red'>-2 hellos</span></h1>
+</section>
